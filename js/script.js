@@ -10,8 +10,11 @@ document.addEventListener("DOMContentLoaded", function() {
             hero_tagline: "⚡ Diseño e integro soluciones de IA a medida que automatizan tus procesos y potencian a tu equipo.",
             hero_location: "Buenos Aires, Argentina",
             hero_cta: "Impulsemos tu proyecto",
-            about_title: "Ingeniería de IA para Procesos Inteligentes",
-            about_text: "Analizo tus flujos operativos para identificar dónde la IA puede generar el mayor impacto. Construyo soluciones a medida que se integran con tus sistemas actuales, automatizando tareas y agilizando la toma de decisiones. El resultado es una operación más eficiente y un equipo enfocado en el crecimiento.",
+            
+            // CAMBIO CLAVE 1: Título y texto enfocados en el valor diferencial y la ventaja competitiva.
+            about_title: "Ingeniería de IA para tu Ventaja Competitiva",
+            about_text: "Mi enfoque combina la ingeniería de software con la estrategia de negocio. En lugar de aplicar herramientas genéricas, analizo tus procesos para diseñar soluciones de IA que se integran de forma nativa en tu operación. El diferencial es crear una ventaja real: mayor velocidad operativa, decisiones basadas en datos precisos y la capacidad de escalar sin fricciones. Es IA diseñada para tus objetivos.",
+            
             expertise_title: "Mis Servicios: IA Aplicada a tu Negocio",
             expertise_card1_title: "Agentes de IA y Automatización Cognitiva",
             expertise_card1_text: "Creo 'trabajadores digitales' a medida. Agentes de IA que pueden leer correos, analizar documentos, completar formularios y ejecutar tareas complejas, operando 24/7 con precisión y sin descanso.",
@@ -23,15 +26,17 @@ document.addEventListener("DOMContentLoaded", function() {
             expertise_card4_text: "Más allá del código, te ayudo a identificar las oportunidades de automatización con mayor retorno de inversión. Analizamos juntos tus flujos de trabajo para diseñar una hoja de ruta de IA que genere valor real y medible.",
             tech_title: "Top Tech Stack",
             experience_title: "Experiencia Profesional",
+            
+            // CAMBIO CLAVE 2: Títulos de puestos simplificados.
             exp1_role: "AI Engineer",
             exp1_company: "Aureum Technologies",
             exp1_desc: "Diseño y despliegue de agentes de IA generativa para automatizar tareas complejas y mejorar procesos de negocio.",
             exp1_date: "2024 - Presente",
-            exp2_role: "Software Engineer: Data Scientist",
+            exp2_role: "Data Scientist",
             exp2_company: "HBX Group",
             exp2_desc: "Rol híbrido Data Engineer/Scientist, desarrollando procesos ETL en Snowflake y modelos de Machine Learning.",
             exp2_date: "2023 - 2024",
-            exp3_role: "Software Engineer: Data Analyst",
+            exp3_role: "Data Analyst",
             exp3_company: "Rappi",
             exp3_desc: "Desarrollo de soluciones de datos de extremo a extremo, desde la generación hasta la visualización y modelado.",
             exp3_date: "2021 - 2023",
@@ -40,10 +45,8 @@ document.addEventListener("DOMContentLoaded", function() {
             exp4_desc: "Extracción, transformación y análisis de datos para presentar hallazgos en dashboards interactivos.",
             exp4_date: "2020 - 2021",
             
-            // CAMBIO FINAL: Tono más profesional, directo y colaborativo.
             contact_title: "Hablemos de tu Proyecto",
             contact_text: "Si lo que has leído resuena con los desafíos u oportunidades de tu empresa, el siguiente paso es una conversación. Podemos analizar tus objetivos y explorar de qué manera una solución de IA a medida puede ayudarte a alcanzarlos. Sin compromiso, solo ideas y estrategia.",
-            
             footer_text: "© 2024 Ignacio Eiguren. Diseñado para la nueva era de la IA."
         },
         en: {
@@ -53,8 +56,11 @@ document.addEventListener("DOMContentLoaded", function() {
             hero_tagline: "⚡ I design and integrate custom AI solutions that automate your processes and empower your team.",
             hero_location: "Buenos Aires, Argentina",
             hero_cta: "Let's boost your project",
-            about_title: "AI Engineering for Intelligent Processes",
-            about_text: "I analyze your operational workflows to identify where AI can generate the greatest impact. I build custom solutions that integrate with your current systems, automating tasks and streamlining decision-making. The result is a more efficient operation and a team focused on growth.",
+
+            // KEY CHANGE 1: Title and text focused on the differential value and competitive edge.
+            about_title: "AI Engineering for Your Competitive Edge",
+            about_text: "My approach combines software engineering with business strategy. Instead of applying generic tools, I analyze your processes to design AI solutions that integrate natively into your operation. The differential is creating a real advantage: greater operational speed, decisions based on precise data, and the ability to scale without friction. This is AI designed for your goals.",
+
             expertise_title: "My Services: AI Applied to Your Business",
             expertise_card1_title: "AI Agents & Cognitive Automation",
             expertise_card1_text: "I create custom 'digital workers.' AI agents that can read emails, analyze documents, fill out forms, and execute complex tasks, operating 24/7 with precision and without breaks.",
@@ -66,15 +72,17 @@ document.addEventListener("DOMContentLoaded", function() {
             expertise_card4_text: "Beyond the code, I help you identify automation opportunities with the highest return on investment. Together, we analyze your workflows to design an AI roadmap that generates real, measurable value.",
             tech_title: "Top Tech Stack",
             experience_title: "Professional Experience",
+
+            // KEY CHANGE 2: Simplified job titles.
             exp1_role: "AI Engineer",
             exp1_company: "Aureum Technologies",
             exp1_desc: "Designing and deploying generative AI agents to automate complex tasks and enhance business processes.",
             exp1_date: "2024 - Present",
-            exp2_role: "Software Engineer: Data Scientist",
+            exp2_role: "Data Scientist",
             exp2_company: "HBX Group",
             exp2_desc: "Hybrid Data Engineer/Scientist role, developing ETL processes in Snowflake and Machine Learning models.",
             exp2_date: "2023 - 2024",
-            exp3_role: "Software Engineer: Data Analyst",
+            exp3_role: "Data Analyst",
             exp3_company: "Rappi",
             exp3_desc: "Developing end-to-end data solutions, from generation to visualization and modeling.",
             exp3_date: "2021 - 2023",
@@ -83,10 +91,8 @@ document.addEventListener("DOMContentLoaded", function() {
             exp4_desc: "Extracting, transforming, and analyzing data to present findings in interactive dashboards.",
             exp4_date: "2020 - 2021",
 
-            // FINAL CHANGE: More professional, direct, and collaborative tone.
             contact_title: "Let's Discuss Your Project",
             contact_text: "If what you've read resonates with your company's challenges or opportunities, the next step is a conversation. We can analyze your goals and explore how a custom AI solution can help you achieve them. No strings attached, just ideas and strategy.",
-
             footer_text: "© 2024 Ignacio Eiguren. Designed for the new era of AI."
         }
     };
