@@ -6,27 +6,30 @@ document.addEventListener("DOMContentLoaded", function() {
         es: {
             contact_tooltip: "Contactar por correo",
             hero_name: "Ignacio Eiguren",
-            hero_role: "AI Engineer & Data Architect",
-            hero_tagline: "⚡ Convierto datos complejos en tu ventaja competitiva. Automatizo procesos para liberar el potencial de tu equipo.",
+            // CAMBIO: Rol más específico y centrado en IA.
+            hero_role: "AI Engineer | Especialista en Automatización y GenAI",
+            // CAMBIO: Tagline 100% enfocada en la acción de integrar IA.
+            hero_tagline: "⚡ Diseño e integro soluciones de IA a medida que automatizan tus procesos y potencian a tu equipo.",
             hero_location: "Buenos Aires, Argentina",
             hero_cta: "Impulsemos tu proyecto",
-            about_title: "Tu Aliado Estratégico en Datos e IA",
-            about_text: "En un mundo inundado de datos, la verdadera ventaja no está en tenerlos, sino en saber qué hacer con ellos. Mi misión es ser ese puente: traduzco el potencial oculto en tus datos en crecimiento real y tangible para tu negocio, automatizando lo tedioso para que tu equipo pueda enfocarse en innovar.",
+            // CAMBIO: Título y texto de "About" centrados en el problema de la ineficiencia y la solución con IA.
+            about_title: "Inteligencia Artificial Aplicada a tu Realidad",
+            about_text: "Muchas empresas tienen el potencial para ser más ágiles, pero están frenadas por procesos manuales y sistemas que no se comunican entre sí. Mi rol es identificar esos cuellos de botella y diseñar soluciones de IA generativa que los eliminen. No se trata de reemplazar personas, sino de potenciar su talento, automatizando lo repetitivo para que puedan enfocarse en la estrategia y la creatividad.",
             
-            // CAMBIO: Tono más natural y profesional en la sección de Expertise.
-            expertise_title: "Mi Enfoque: Soluciones Estratégicas",
+            // CAMBIO RADICAL: Sección de Expertise completamente reescrita para enfocarse en servicios de IA.
+            expertise_title: "Mis Servicios: IA Aplicada a tu Negocio",
             
-            expertise_card1_title: "Automatización y Eficiencia",
-            expertise_card1_text: "Mi foco es crear sistemas inteligentes que se encargan del trabajo repetitivo. El objetivo es simple: liberar el tiempo de tu equipo para que puedan dedicarse a la innovación y a las tareas de alto impacto.",
+            expertise_card1_title: "Agentes de IA y Automatización Cognitiva",
+            expertise_card1_text: "Creo 'trabajadores digitales' a medida. Agentes de IA que pueden leer correos, analizar documentos, completar formularios y ejecutar tareas complejas, operando 24/7 con precisión y sin descanso.",
             
-            expertise_card2_title: "Datos Fiables, Decisiones Inteligentes",
-            expertise_card2_text: "Construyo una base de datos centralizada y ordenada: una única fuente de verdad. Esto garantiza que cada decisión estratégica se apoye en información precisa y coherente, eliminando la incertidumbre.",
+            expertise_card2_title: "Integración de IA en Sistemas Existentes",
+            expertise_card2_text: "No necesitas cambiar todo tu software. Me especializo en conectar el poder de los modelos de lenguaje (LLMs) con tus herramientas actuales (CRMs, ERPs, bases de datos), potenciando lo que ya tienes.",
 
-            expertise_card3_title: "Insights Accionables, no solo Métricas",
-            expertise_card3_text: "Voy más allá de los reportes básicos. Mi trabajo es transformar datos crudos en insights claros que respondan a tus preguntas de negocio. A través de visualizaciones interactivas, identificamos patrones y oportunidades.",
+            expertise_card3_title: "Optimización de Datos para IA",
+            expertise_card3_text: "La mejor IA se alimenta de buenos datos. Me aseguro de que tu información esté limpia, estructurada y lista para ser utilizada por los modelos de IA, garantizando respuestas precisas y un rendimiento óptimo.",
 
-            expertise_card4_title: "Procesos Fluidos y Escalables",
-            expertise_card4_text: "Diseño flujos de trabajo que conectan tus herramientas y sistemas. El resultado es una operación más ágil, con menos errores manuales y preparada para crecer sin que los procesos se conviertan en un obstáculo.",
+            expertise_card4_title: "Consultoría y Estrategia de IA",
+            expertise_card4_text: "Más allá del código, te ayudo a identificar las oportunidades de automatización con mayor retorno de inversión. Analizamos juntos tus flujos de trabajo para diseñar una hoja de ruta de IA que genere valor real y medible.",
 
             tech_title: "Top Tech Stack",
             experience_title: "Experiencia Profesional",
@@ -53,27 +56,30 @@ document.addEventListener("DOMContentLoaded", function() {
         en: {
             contact_tooltip: "Contact by email",
             hero_name: "Ignacio Eiguren",
-            hero_role: "AI Engineer & Data Architect",
-            hero_tagline: "⚡ I turn complex data into your competitive edge. I automate processes to unlock your team's potential.",
+            // CHANGE: More specific, AI-focused role.
+            hero_role: "AI Engineer | Automation & GenAI Specialist",
+            // CHANGE: Tagline 100% focused on the action of integrating AI.
+            hero_tagline: "⚡ I design and integrate custom AI solutions that automate your processes and empower your team.",
             hero_location: "Buenos Aires, Argentina",
             hero_cta: "Let's boost your project",
-            about_title: "Your Strategic Partner in Data & AI",
-            about_text: "In a world flooded with data, the real advantage isn't having it, but knowing what to do with it. My mission is to be that bridge: I translate the hidden potential in your data into real, tangible growth for your business, automating the tedious so your team can focus on innovation.",
+            // CHANGE: "About" title and text focused on the problem of inefficiency and the AI solution.
+            about_title: "Artificial Intelligence Applied to Your Reality",
+            about_text: "Many companies have the potential to be more agile but are held back by manual processes and systems that don't communicate. My role is to identify these bottlenecks and design generative AI solutions that eliminate them. It's not about replacing people, but empowering their talent by automating repetitive work so they can focus on strategy and creativity.",
 
-            // CHANGE: More natural and professional tone in the Expertise section.
-            expertise_title: "My Approach: Strategic Solutions",
+            // RADICAL CHANGE: Expertise section completely rewritten to focus on AI services.
+            expertise_title: "My Services: AI Applied to Your Business",
 
-            expertise_card1_title: "Automation & Efficiency",
-            expertise_card1_text: "My focus is on creating intelligent systems that handle repetitive work. The goal is simple: to free up your team's time so they can focus on innovation and high-impact tasks.",
+            expertise_card1_title: "AI Agents & Cognitive Automation",
+            expertise_card1_text: "I create custom 'digital workers.' AI agents that can read emails, analyze documents, fill out forms, and execute complex tasks, operating 24/7 with precision and without breaks.",
 
-            expertise_card2_title: "Reliable Data, Smart Decisions",
-            expertise_card2_text: "I build a centralized and orderly data foundation: a single source of truth. This ensures that every strategic decision is backed by accurate and consistent information, eliminating uncertainty.",
+            expertise_card2_title: "AI Integration with Existing Systems",
+            expertise_card2_text: "You don't need to replace all your software. I specialize in connecting the power of Large Language Models (LLMs) to your current tools (CRMs, ERPs, databases), enhancing what you already have.",
 
-            expertise_card3_title: "Actionable Insights, Not Just Metrics",
-            expertise_card3_text: "I go beyond basic reports. My job is to transform raw data into clear insights that answer your business questions. Through interactive visualizations, we identify patterns and opportunities.",
+            expertise_card3_title: "Data Optimization for AI",
+            expertise_card3_text: "The best AI is fueled by good data. I ensure your information is clean, structured, and ready to be used by AI models, guaranteeing accurate responses and optimal performance.",
 
-            expertise_card4_title: "Fluid and Scalable Processes",
-            expertise_card4_text: "I design workflows that connect your tools and systems. The result is a more agile operation, with fewer manual errors, ready to grow without processes becoming an obstacle.",
+            expertise_card4_title: "AI Consulting & Strategy",
+            expertise_card4_text: "Beyond the code, I help you identify automation opportunities with the highest return on investment. Together, we analyze your workflows to design an AI roadmap that generates real, measurable value.",
 
             tech_title: "Top Tech Stack",
             experience_title: "Professional Experience",
@@ -111,43 +117,4 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (element.tagName === 'A' && key === 'contact_tooltip') {
                     element.setAttribute('title', translations[lang][key]);
                 } else {
-                    element.innerHTML = translations[lang][key];
-                }
-            }
-        });
-        
-        if (lang === 'es') {
-            langEsBtn.classList.add('active');
-            langEnBtn.classList.remove('active');
-        } else {
-            langEnBtn.classList.add('active');
-            langEsBtn.classList.remove('active');
-        }
-
-        localStorage.setItem('language', lang);
-    };
-
-    langEsBtn.addEventListener('click', () => setLanguage('es'));
-    langEnBtn.addEventListener('click', () => setLanguage('en'));
-
-    const savedLang = localStorage.getItem('language') || 'es';
-    setLanguage(savedLang);
-
-    const animatedElements = document.querySelectorAll('.animate-on-scroll');
-
-    if (animatedElements.length > 0) {
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('is-visible');
-                }
-            });
-        }, {
-            threshold: 0.1
-        });
-
-        animatedElements.forEach(element => {
-            observer.observe(element);
-        });
-    }
-});
+                    element.innerHTML 
