@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function() {
             hero_location: "Buenos Aires, Argentina",
             hero_cta: "Impulsemos tu proyecto",
             
-            // CAMBIO CLAVE 1: Título y texto enfocados en el valor diferencial y la ventaja competitiva.
-            about_title: "Ingeniería de IA para tu Ventaja Competitiva",
-            about_text: "Mi enfoque combina la ingeniería de software con la estrategia de negocio. En lugar de aplicar herramientas genéricas, analizo tus procesos para diseñar soluciones de IA que se integran de forma nativa en tu operación. El diferencial es crear una ventaja real: mayor velocidad operativa, decisiones basadas en datos precisos y la capacidad de escalar sin fricciones. Es IA diseñada para tus objetivos.",
+            // CAMBIO FINAL: Título y texto enfocados en la acción de construir y potenciar.
+            about_title: "Ingeniería de IA para la Acción",
+            about_text: "Mi especialidad es construir sistemas de automatización que potencian tus procesos existentes. Integro IA directamente en tus flujos de trabajo para aumentar la eficiencia, reducir la carga manual y acelerar tus resultados. Es ingeniería aplicada para un impacto inmediato.",
             
             expertise_title: "Mis Servicios: IA Aplicada a tu Negocio",
             expertise_card1_title: "Agentes de IA y Automatización Cognitiva",
@@ -26,8 +26,6 @@ document.addEventListener("DOMContentLoaded", function() {
             expertise_card4_text: "Más allá del código, te ayudo a identificar las oportunidades de automatización con mayor retorno de inversión. Analizamos juntos tus flujos de trabajo para diseñar una hoja de ruta de IA que genere valor real y medible.",
             tech_title: "Top Tech Stack",
             experience_title: "Experiencia Profesional",
-            
-            // CAMBIO CLAVE 2: Títulos de puestos simplificados.
             exp1_role: "AI Engineer",
             exp1_company: "Aureum Technologies",
             exp1_desc: "Diseño y despliegue de agentes de IA generativa para automatizar tareas complejas y mejorar procesos de negocio.",
@@ -44,7 +42,6 @@ document.addEventListener("DOMContentLoaded", function() {
             exp4_company: "Think Thanks",
             exp4_desc: "Extracción, transformación y análisis de datos para presentar hallazgos en dashboards interactivos.",
             exp4_date: "2020 - 2021",
-            
             contact_title: "Hablemos de tu Proyecto",
             contact_text: "Si lo que has leído resuena con los desafíos u oportunidades de tu empresa, el siguiente paso es una conversación. Podemos analizar tus objetivos y explorar de qué manera una solución de IA a medida puede ayudarte a alcanzarlos. Sin compromiso, solo ideas y estrategia.",
             footer_text: "© 2024 Ignacio Eiguren. Diseñado para la nueva era de la IA."
@@ -57,9 +54,9 @@ document.addEventListener("DOMContentLoaded", function() {
             hero_location: "Buenos Aires, Argentina",
             hero_cta: "Let's boost your project",
 
-            // KEY CHANGE 1: Title and text focused on the differential value and competitive edge.
-            about_title: "AI Engineering for Your Competitive Edge",
-            about_text: "My approach combines software engineering with business strategy. Instead of applying generic tools, I analyze your processes to design AI solutions that integrate natively into your operation. The differential is creating a real advantage: greater operational speed, decisions based on precise data, and the ability to scale without friction. This is AI designed for your goals.",
+            // FINAL CHANGE: Title and text focused on the action of building and enhancing.
+            about_title: "AI Engineering for Action",
+            about_text: "My specialty is building automation systems that enhance your existing processes. I integrate AI directly into your workflows to increase efficiency, reduce manual workload, and accelerate your results. This is applied engineering for an immediate impact.",
 
             expertise_title: "My Services: AI Applied to Your Business",
             expertise_card1_title: "AI Agents & Cognitive Automation",
@@ -72,8 +69,6 @@ document.addEventListener("DOMContentLoaded", function() {
             expertise_card4_text: "Beyond the code, I help you identify automation opportunities with the highest return on investment. Together, we analyze your workflows to design an AI roadmap that generates real, measurable value.",
             tech_title: "Top Tech Stack",
             experience_title: "Professional Experience",
-
-            // KEY CHANGE 2: Simplified job titles.
             exp1_role: "AI Engineer",
             exp1_company: "Aureum Technologies",
             exp1_desc: "Designing and deploying generative AI agents to automate complex tasks and enhance business processes.",
@@ -90,7 +85,6 @@ document.addEventListener("DOMContentLoaded", function() {
             exp4_company: "Think Thanks",
             exp4_desc: "Extracting, transforming, and analyzing data to present findings in interactive dashboards.",
             exp4_date: "2020 - 2021",
-
             contact_title: "Let's Discuss Your Project",
             contact_text: "If what you've read resonates with your company's challenges or opportunities, the next step is a conversation. We can analyze your goals and explore how a custom AI solution can help you achieve them. No strings attached, just ideas and strategy.",
             footer_text: "© 2024 Ignacio Eiguren. Designed for the new era of AI."
