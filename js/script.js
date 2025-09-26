@@ -117,4 +117,43 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (element.tagName === 'A' && key === 'contact_tooltip') {
                     element.setAttribute('title', translations[lang][key]);
                 } else {
-                    element.innerHTML 
+                    element.innerHTML = translations[lang][key];
+                }
+            }
+        });
+        
+        if (lang === 'es') {
+            langEsBtn.classList.add('active');
+            langEnBtn.classList.remove('active');
+        } else {
+            langEnBtn.classList.add('active');
+            langEsBtn.classList.remove('active');
+        }
+
+        localStorage.setItem('language', lang);
+    };
+
+    langEsBtn.addEventListener('click', () => setLanguage('es'));
+    langEnBtn.addEventListener('click', () => setLanguage('en'));
+
+    const savedLang = localStorage.getItem('language') || 'es';
+    setLanguage(savedLang);
+
+    const animatedElements = document.querySelectorAll('.animate-on-scroll');
+
+    if (animatedElements.length > 0) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        animatedElements.forEach(element => {
+            observer.observe(element);
+        });
+    }
+});
